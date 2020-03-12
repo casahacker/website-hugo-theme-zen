@@ -86,8 +86,12 @@ html, body {
 	flex-direction: column;
 }
 
-.content img[src*="#friends"] {
+.content .partners-logos {
 	width: 150px;
+}
+
+.content .social-media {
+	width: 25px;
 }
 /* //Main */
 
