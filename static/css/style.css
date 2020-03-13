@@ -86,6 +86,11 @@ html, body {
 	flex-direction: column;
 }
 
+.layout_partners {
+	width: 100%;
+	background: url(../images_test/plum.jpg);
+}
+
 .content .partners-logos {
 	width: 150px;
 }
