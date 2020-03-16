@@ -6,6 +6,14 @@ html, body {
 	padding: 0;
 }
 
+.layout__page {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 /* Header */
 .layout__header {
 	position: absolute;
@@ -82,20 +90,43 @@ html, body {
 /* Main */
 .layout__main {
 	width: 100%;
-	display: flex;
-	flex-direction: column;
 }
 
-.layout_partners {
+.layout_description p, .layout_location p {
+	margin: 0;
+	padding: 12px 0;
+}
+
+.layout_partners h2, .layout_location h2 {
+	margin: 0;
+	padding: 12px 0;
+}
+
+.layout_description {
 	width: 100%;
-	background: url(../images_test/plum.jpg);
+	color: #fff;
+	background: url(../images/wallpaper.jpg) no-repeat;
+	background-size: cover;
 }
 
-.content .partners-logos {
+.layout_location {
+	width: 100%;
+	color: #fff;
+	background: url(../images/wallpaper.jpg) no-repeat;
+	background-size: cover;
+}
+
+.layout_location a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+}
+
+.partners-logos {
 	width: 150px;
 }
 
-.content .social-media {
+.social-media {
 	width: 25px;
 }
 /* //Main */
@@ -104,7 +135,7 @@ html, body {
 .footer {
 	width: 100%;
 	min-height: 80px;
-	margin-top: 20px;
+	padding: 15px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -141,7 +172,7 @@ html, body {
 	.layout__header {
 		position: relative;
 		min-height: 80px;
-		margin-top: 10px;
+		padding-top: 10px;
 	}
 	.main-menu {
 		justify-content: center;
