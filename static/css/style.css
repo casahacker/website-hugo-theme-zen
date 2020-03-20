@@ -88,8 +88,7 @@ html, body {
 /* //Menu */
 
 /* Main */
-.layout_description p, .layout_location p,
-.layout_partners h2, .layout_location h2 {
+.layout_description p, .layout_location p {
 	margin: 0;
 	padding: 12px 0;
 }
@@ -127,7 +126,7 @@ html, body {
 	padding: 10px 0;
 }
 
-.title-partners {
+.text-partners {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -135,7 +134,7 @@ html, body {
 	margin: 0 20px;
 }
 
-.title-partners p {
+.text-partners p {
 	width: 100%;
 	text-align: left;
 	font-size: 40px;
@@ -163,17 +162,26 @@ html, body {
 
 .layout_location {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
 	background: url(../images/wallpaper.jpg) no-repeat;
 	background-size: cover;
 	color: #fff;
-	padding: 10px 0;
+	padding: 20px 0;
 }
 
-.layout_location .title-location {
-	font-size: 36px;
+.layout_location iframe {
+	margin: 0 15px;
+}
+
+.layout_location .text-location {
+	text-align: right;
+	margin: 0 12px;
+}
+
+.text-location .title-location {
+	font-size: 40px;
 	padding: 10px 0;
 }
 
@@ -196,10 +204,6 @@ html, body {
 	box-shadow: 0 -4px 4px -1px rgba(0, 0, 0, .4);
 }
 
-.footer .social-medias {
-	margin-top: 25px;
-}
-
 .footer .copyright {
 	display: flex;
 	flex-direction: row;
@@ -217,6 +221,10 @@ html, body {
 
 .footer a:hover {
 	color: rgba(0, 0, 0, .4);
+}
+
+.footer .social-medias {
+	margin-top: 25px;
 }
 
 .social-media {
