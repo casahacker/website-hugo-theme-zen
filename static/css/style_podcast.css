@@ -1,0 +1,23 @@
+.section-podcast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 40%;
+    margin-bottom: 18px;
+    padding: 7px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section-podcast header h2 {
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.section-podcast header a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}

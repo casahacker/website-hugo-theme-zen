@@ -11,7 +11,10 @@ html, body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+}
+
+main {
+	flex-grow: 1;
 }
 
 /* Header */
@@ -255,6 +258,9 @@ html, body {
 }
 
 @media screen and (max-width: 510px) {
+	.footer {
+		min-height: 160px;
+	}
 	.footer .copyright {
 		flex-direction: column;
 	}
