@@ -101,6 +101,7 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	min-height: 650px;
 	background: url(../images/wallpaper.jpg) no-repeat;
 	background-size: cover;
 	color: #fff;
@@ -109,6 +110,7 @@ main {
 
 .layout_description p {
 	width: 100%;
+	font-size: 18px;
 	text-align: justify;
 	padding: 8px 0;
 	line-height: 1.9em;
@@ -126,10 +128,11 @@ main {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	min-height: 650px;
 	padding: 10px 0;
 }
 
-.text-partners {
+.title-partners {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -137,30 +140,19 @@ main {
 	margin: 0 20px;
 }
 
-.text-partners p {
+.title-partners p {
 	width: 100%;
 	text-align: left;
-	font-size: 40px;
-	margin: 18px 0;
-}
-
-.layout_partners .partners-images {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	font-size: 46px;
+	margin: 16px 0;
 }
 
 .partners-images .item {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	text-align: center;
 }
 
 .partners-images img {
-	width: 130px;
+	width: 140px;
 }
 
 .layout_location {
@@ -168,6 +160,7 @@ main {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	min-height: 650px;
 	background: url(../images/wallpaper.jpg) no-repeat;
 	background-size: cover;
 	color: #fff;
@@ -178,14 +171,14 @@ main {
 	margin: 0 15px;
 }
 
+.text-location .title-location {
+	font-size: 46px;
+	padding: 10px 0;
+}
+
 .layout_location .text-location {
 	text-align: right;
 	margin: 0 12px;
-}
-
-.text-location .title-location {
-	font-size: 40px;
-	padding: 10px 0;
 }
 
 .layout_location a {
@@ -198,7 +191,7 @@ main {
 /* Footer */
 .footer {
 	width: 100%;
-	min-height: 80px;
+	min-height: 110px;
 	padding: 15px 0;
 	display: flex;
 	flex-direction: column;
