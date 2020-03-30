@@ -6,7 +6,26 @@ article header p {
 .layout_arrive .title,
 .layout_mission .title,
 .layout_about .title {
-    font-size: 40px;
+    font-size: 42px;
+}
+
+.text-about {
+    width: 75%;
+    text-align: justify;
+}
+
+.box-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.box-title p {
+    width: 50%;
+    margin: 12px 0;
+    text-align: left;
 }
 
 .layout_arrive {
@@ -14,6 +33,7 @@ article header p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    min-height: 650px;
     padding: 12px;
     color: #fff;
     background: url(../images/wallpaper.jpg);
@@ -24,6 +44,7 @@ article header p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    min-height: 650px;
     padding: 12px;
 }
 
@@ -32,27 +53,10 @@ article header p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    min-height: 650px;
     padding: 12px;
     color: #fff;
     background: url(../images/wallpaper.jpg);
-}
-
-.layout_about .box-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-}
-
-.box-title p {
-    width: 50%;
-    margin: 12px 0;
-    text-align: left;
-}
-
-.layout_about .text-about {
-    width: 80%;
 }
 
 .layout_about a {

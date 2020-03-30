@@ -20,7 +20,7 @@ main {
 /* Header */
 .layout__header {
 	position: absolute;
-	min-height: 110px;
+	min-height: 120px;
 	padding: 0 20px;
 	display: flex;
 	justify-content: flex-start;
@@ -56,11 +56,11 @@ main {
 /* Menu */
 .main-menu {
 	width: 100%;
-	min-height: 110px;
+	min-height: 120px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	box-shadow: 0 4px 4px -1px rgba(0, 0, 0, .4);
+	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, .4);
 }
 
 .main-menu h2 {
@@ -76,7 +76,7 @@ main {
 	margin: 0 10px;
 }
 
-.main-menu ul li a {
+.main-menu a {
 	text-decoration: none;
 	color: #000;
 	margin: 0 8px;
@@ -84,7 +84,7 @@ main {
 	transition: .5s;
 }
 
-.main-menu ul li a:hover {
+.main-menu a:hover {
 	cursor: pointer;
 	color: rgba(0, 0, 0, .4);
 }
@@ -102,7 +102,8 @@ main {
 	justify-content: center;
 	align-items: center;
 	min-height: 650px;
-	background: url(../images/wallpaper.jpg) no-repeat;
+	background: url(../images/sky.jpg) no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	color: #fff;
 	padding: 12px;
@@ -161,7 +162,8 @@ main {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 650px;
-	background: url(../images/wallpaper.jpg) no-repeat;
+	background: url(../images/abstract.png) no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	color: #fff;
 	padding: 20px 0;
@@ -191,13 +193,13 @@ main {
 /* Footer */
 .footer {
 	width: 100%;
-	min-height: 110px;
+	min-height: 100px;
 	padding: 15px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0 -4px 4px -1px rgba(0, 0, 0, .4);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .4);
 }
 
 .footer .copyright {
@@ -229,6 +231,11 @@ main {
 /* //Footer */
 
 /* Responsive code */
+@media screen and (max-width: 1010px) {
+	.layout__header ul {
+		padding: 0 25px;
+	}
+}
 @media screen and (max-width: 1000px) {
 	.layout__header {
 		position: relative;
@@ -241,12 +248,15 @@ main {
 	}
 }
 
+@media screen and (max-width: 695px) {
+	.main-menu a {
+		margin: 0 5px;
+	}
+}
+
 @media screen and (max-width: 665px) {
 	.main-menu {
 		display: none;
-	}
-	.layout__header {
-		box-shadow: 0 4px 4px -1px rgba(0, 0, 0, .4);
 	}
 }
 

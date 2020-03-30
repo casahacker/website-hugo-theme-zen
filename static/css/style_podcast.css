@@ -9,14 +9,14 @@
 .section-podcast.list-view {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 75%;
     text-align: justify;
     margin-bottom: 15px;
     padding: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 8px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .section-podcast.list-view header h2 {
@@ -38,10 +38,10 @@
     justify-content: center;
     align-items: center;
     width: 90%;
+    text-align: justify;
     padding: 0 10px;
-    border: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 8px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .section-podcast .tags {
@@ -80,7 +80,7 @@
     .list-view h2 a {
         font-size: 20px;
     }
-	.single-view {
+	.section-podcast.single-view {
         margin: 20px 0;
     }
 }
