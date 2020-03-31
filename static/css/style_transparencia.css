@@ -19,7 +19,7 @@
 }
 
 .section-transparencia.list-view h2 a:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 /* //Página de transparência */
 
@@ -39,6 +39,6 @@
 }
 
 .section-transparencia.single-view a:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 /* //Política de privacidade */
