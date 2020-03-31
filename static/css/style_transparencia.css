@@ -1,0 +1,44 @@
+/* Página de transparência */
+.section-transparencia.list-view {
+    width: 90%;
+    margin: 0 auto 22px auto;
+    padding: 12px;
+    text-align: justify;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.section-transparencia.list-view h2 {
+    margin: 10px 0;
+}
+
+.section-transparencia.list-view h2 a {
+    text-decoration: none;
+    color: #000;
+    transition: opacity .2s;
+}
+
+.section-transparencia.list-view h2 a:hover {
+    opacity: 0.7;
+}
+/* //Página de transparência */
+
+/* Política de privacidade */
+.section-transparencia.single-view {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: justify;
+}
+
+.section-transparencia.single-view a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: opacity .2s;
+}
+
+.section-transparencia.single-view a:hover {
+    opacity: 0.7;
+}
+/* //Política de privacidade */

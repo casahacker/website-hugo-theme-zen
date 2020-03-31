@@ -3,12 +3,6 @@ article header p {
     display: none;
 }
 
-.layout_arrive .title,
-.layout_mission .title,
-.layout_about .title {
-    font-size: 42px;
-}
-
 .text-about {
     width: 75%;
     text-align: justify;
@@ -20,10 +14,12 @@ article header p {
     justify-content: center;
     align-items: center;
     width: 25%;
+    margin: 0 20px;
 }
 
 .box-title p {
-    width: 50%;
+    width: 100%;
+    font-size: 56px;
     margin: 12px 0;
     text-align: left;
 }
@@ -33,10 +29,12 @@ article header p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 650px;
+    min-height: 680px;
     padding: 12px;
     color: #fff;
-    background: url(../images/wallpaper.jpg);
+    background: url(../images/wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .layout_mission {
@@ -44,7 +42,7 @@ article header p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 650px;
+    min-height: 680px;
     padding: 12px;
 }
 
@@ -53,10 +51,12 @@ article header p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 650px;
+    min-height: 680px;
     padding: 12px;
     color: #fff;
-    background: url(../images/wallpaper.jpg);
+    background: url(../images/wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .layout_about a {
